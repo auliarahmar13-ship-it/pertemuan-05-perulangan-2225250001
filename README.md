@@ -26,17 +26,15 @@ Struktur folder pada tugas Pertemuan 05 adalah sebagai berikut:
 
 ```text
 pertemuan-05-perulangan-2225250001/
-│
 ├── latihan/
 │   ├── 01_tabel_perkalian.py
 │   ├── 02_jumlah_bilangan.py
 │   ├── 03_validasi_input.py
 │   └── 04_hitung_genap.py
-│
 ├── kuis/
 │   └── kuis2_deret_aritmetika.py
-│
 └── README.md
+```
 
 ## Keterangan File
 
@@ -49,18 +47,18 @@ kuis2_deret_aritmetika.py	: Menghitung suku dan jumlah deret aritmetika mengguna
 
 ---
 
-##Latihan
+## Latihan
 Latihan 1 - Tabel Perkalian
 Nama File
 latihan/01_tabel_perkalian.py
 
-##Tujuan
+## Tujuan
 Program menerima satu bilangan bulat dan menampilkan tabel perkalian dari bilangan tersebut mulai dari perkalian 1 sampai perkalian 10.
 
 Konsep yang Digunakan
 Program menggunakan perulangan for.
 
-##Algoritma
+## Algoritma
 1. Meminta pengguna memasukkan sebuah bilangan.
 2. Menyimpan bilangan tersebut ke dalam variabel n.
 3. Melakukan perulangan menggunakan for dari 1 sampai 10.
@@ -74,11 +72,11 @@ Program menggunakan perulangan for.
 | `-3`  | Tabel perkalian -3 dari 1 sampai 10 |
 Program harus menghasilkan tepat 10 baris keluaran untuk setiap input.
 
-##Latihan 2 - Jumlah 1 sampai n
+## Latihan 2 - Jumlah 1 sampai n
 Nama File
 latihan/02_jumlah_bilangan.py
 
-##Tujuan
+## Tujuan
 
 Program menerima bilangan bulat positif n, kemudian menghitung jumlah:
 
@@ -87,7 +85,7 @@ Konsep yang Digunakan
 
 Program menggunakan perulangan for.
 
-##Algoritma
+## Algoritma
 1. Meminta pengguna memasukkan bilangan n.
 2. Membuat variabel total dan memberikan nilai awal 0.
 3. Melakukan perulangan dari 1 sampai n.
@@ -105,21 +103,20 @@ Contoh:
 n = 5
 1 + 2 + 3 + 4 + 5 = 15
 
-##Latihan 3 - Validasi Input
+## Latihan 3 - Validasi Input
 Nama File
 latihan/03_validasi_input.py
 
-##Tujuan
+## Tujuan
 
 Program meminta pengguna memasukkan nilai ujian dari 0 sampai 100.
 
 Jika nilai yang dimasukkan berada di luar rentang tersebut, program meminta pengguna memasukkan nilai kembali sampai mendapatkan nilai yang valid.
 
 Konsep yang Digunakan
-
 Program menggunakan perulangan while dan validasi kondisi.
 
-##Algoritma
+## Algoritma
 1. Meminta pengguna memasukkan nilai ujian.
 2. Memeriksa apakah nilai kurang dari 0 atau lebih dari 100.
 3. Jika nilai tidak valid, tampilkan pesan bahwa nilai tidak valid.
@@ -139,21 +136,21 @@ Nilai 120 → tidak valid
 Nilai -5  → tidak valid
 Nilai 75  → valid
 
-##Latihan 4 - Menghitung Bilangan Genap
+## Latihan 4 - Menghitung Bilangan Genap
 Nama File
 
 latihan/04_hitung_genap.py
 
-##Tujuan
+## Tujuan
 Program menerima bilangan positif n, kemudian menghitung banyak bilangan genap dari 1 sampai n.
 
-##Konsep yang Digunakan
+## Konsep yang Digunakan
 Program menggunakan perulangan for dan operator modulus %.
 
 Bilangan dikatakan genap apabila:
 i % 2 == 0
 
-##Algoritma
+## Algoritma
 1. Meminta pengguna memasukkan bilangan n.
 2. Membuat variabel jumlah_genap dengan nilai awal 0.
 3. Melakukan perulangan dari 1 sampai n.
@@ -178,12 +175,12 @@ Bilangan dari 1 sampai 5:
 
 Jumlah bilangan genap = 2
 
-##Kuis 2 - Deret Aritmetika
+## Kuis 2 - Deret Aritmetika
 Nama File
 
 kuis/kuis2_deret_aritmetika.py
 
-##Tujuan
+## Tujuan
 
 Program menerima:
 suku pertama (a)
@@ -191,11 +188,9 @@ beda (d)
 banyak suku (n)
 
 Kemudian program menghitung suku-suku deret aritmetika dan jumlah seluruh suku.
-
 Program menggunakan perulangan untuk menghasilkan setiap suku deret.
 
-Konsep yang Digunakan
-
+## Konsep yang Digunakan
 Program menggunakan:
 float
 while
@@ -223,7 +218,7 @@ a = suku pertama
 d = beda
 n = banyak suku
 
-Algoritma Kuis
+## Algoritma Kuis
 
 1. Membaca nilai a.
 2. Membaca nilai d.
@@ -236,7 +231,7 @@ Algoritma Kuis
 9. Menampilkan seluruh suku deret.
 10. Menampilkan jumlah seluruh suku.
 
-##Cara Menjalankan Program
+## Cara Menjalankan Program
 
 Pastikan terminal berada pada folder:
 pertemuan-05-perulangan-2225250001
@@ -256,7 +251,7 @@ python latihan/04_hitung_genap.py
 Menjalankan Kuis 2
 python kuis/kuis2_deret_aritmetika.py
 
-##Hasil Pengujian
+## Hasil Pengujian
 
 Pengujian Latihan 1
 
@@ -296,7 +291,7 @@ Pengujian Kuis 2
 |  `10` |  `-2` | `4` | `10, 8, 6, 4`     |   `28` |
 | `1.5` | `0.5` | `3` | `1.5, 2.0, 2.5`   |  `6.0` |
 
-##Refleksi
+## Refleksi
 Pada pertemuan ini saya mempelajari penggunaan perulangan for dan while dalam Python.
 
 Salah satu kesalahan yang perlu diperhatikan dalam membuat program perulangan adalah kesalahan pada batas perulangan. Kesalahan menentukan nilai awal, nilai akhir, atau kondisi perulangan dapat menyebabkan jumlah proses tidak sesuai dengan yang diharapkan.
@@ -312,7 +307,7 @@ Cara memperbaikinya adalah dengan memeriksa kembali:
 
 Melalui latihan ini, saya menjadi lebih memahami bahwa penggunaan for cocok ketika jumlah pengulangan sudah diketahui, sedangkan while dapat digunakan ketika pengulangan bergantung pada suatu kondisi.
 
-##Kesimpulan
+## Kesimpulan
 Pada Pertemuan 05 telah dipelajari penggunaan perulangan pada Python melalui beberapa latihan dan kuis.
 
 Latihan yang dikerjakan meliputi:

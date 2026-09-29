@@ -38,8 +38,6 @@ pertemuan-05-perulangan-2225250001/
 │
 └── README.md
 
----
-
 ## Keterangan File
 
 File	                   
